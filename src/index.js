@@ -11,7 +11,7 @@ const quotes = "Jangan pernah menyerah sebelum kesempatan itu benar-benar sudah 
 const data = [{
   name: "Alfa Husni Mubarok", nim: "21120118130064", kelompok: "27", email: "alfahusnimubarok@gmail.com", ttl: "Demak, 07 September 1998",
 },
-{name: "Ahmad Hufron", nim: "211201181200__", kelompok: "27", email: "________@gmail.com", ttl: "___, ____________",
+{name: "Ahmad Hufron", nim: "21120118120028", kelompok: "27", email: "ahmadhufron64@gmail.com", ttl: "Kendal, 30 Maret 2000",
 }];
 ReactDOM.render(
   <React.StrictMode>
