@@ -2,7 +2,6 @@ import React from "react";
 
 export default function FeatureSections(props) {
     const { data, catatan, isNameBold} = props;
-
     return (
 <div class="bg-white shadow overflow-hidden sm:rounded-lg">
   <div class="px-4 py-5 sm:px-6">
@@ -15,7 +14,6 @@ export default function FeatureSections(props) {
   </div>
   {data.map(({name, nim, kelompok, email, ttl}) => (
   <div class="border-t border-gray-200">
-    
     <dl>
       <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
         <dt class={`${
@@ -68,7 +66,6 @@ export default function FeatureSections(props) {
         </dd>
       </div>
     </dl>
-    
   </div>
   ))}
 </div>
